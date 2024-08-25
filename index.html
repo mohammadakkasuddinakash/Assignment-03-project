@@ -12,6 +12,13 @@
     <script src="https://kit.fontawesome.com/aeafda1185.js" crossorigin="anonymous"></script>
     <!-- Tailwind link -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bground-img{
+            background-image: url('./assets/bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 
 
 </head>
@@ -169,7 +176,7 @@
             <!-- First row -->
             <div class=" lg:grid grid-cols-3  gap-5 pb-2 ">
 
-                <div class=" col-span-2 lg:flex gap-3 space-x-2 border-2 rounded-xl p-4 ">
+                <div class=" col-span-2 lg:flex gap-3 space-x-2 border-[1px] rounded-xl p-4 ">
                     <div class=" w-full">
                         <img class="w-full pb-4 lg:pb-0" src="./assets/img1.png" alt="">
                     </div>
@@ -184,7 +191,7 @@
                     </div>
                 </div>
 
-                <div class="col-span-1 border-2 rounded-xl p-3 mt-5 lg:mt-0 ">
+                <div class="col-span-1 border-[1px] rounded-xl p-3 mt-5 lg:mt-0 ">
                     <img class="w-full" src="./assets/img2.png" alt="">
                 </div>
 
@@ -192,11 +199,11 @@
             </div>
             <!-- Second row -->
             <div class="lg:grid grid-cols-4 gap-5 flex flex-col-reverse lg:flex-none">
-                <div class="col-span-1 border-2 rounded-xl p-4">
+                <div class="col-span-1 border-[1px] rounded-xl p-4">
                     <img class="w-full" src="./assets/img3.png" alt="">
                 </div>
 
-                <div class=" col-span-2 lg:flex gap-2 space-x-1 border-2 rounded-xl p-3 my-5 lg:my-0  h-fit">
+                <div class=" col-span-2 lg:flex gap-2 space-x-1 border-[1px] rounded-xl p-3 my-5 lg:my-0  h-fit">
                     <div class="w-full">
                         <img class="w-full pb-4 lg:pb-0 " src="./assets/img4.png" alt="">
                     </div>
@@ -211,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="col-span-1 border-2 rounded-xl p-4">
+                <div class="col-span-1 border-[1px] rounded-xl p-4">
                     <img class="w-full" src="./assets/img5.png" alt="">
                 </div>
             </div>
@@ -221,6 +228,37 @@
 
 
     </main>
+
+    <!-- Discuss and Contract section -->
+     <section class="bground-img">
+        <div class="w-4/5 lg:w-2/3 mx-auto py-9 ">
+
+            <div class="text-center space-y-2 ">
+                <p class="text-gray-700 font-bold px-[12px] py-[8px] bg-[#ABEF5F33] w-fit rounded-full mx-auto" > <i class="fa-solid fa-arrow-right text-sm pr-1"></i>Let’s Connect</p>
+                <h1 class="text-3xl font-bold  py-3">Let’s Discuss Next Project</h1>
+                <p class="text-gray-500 text-lg pb-4">The barn house captivates with its blend of rustic charm and modern sophistication,  featuring weathered wood, sleek metal accents.</p>
+
+            </div>
+            <div>
+                <div class="grid grid-cols-1 lg:grid-cols-2  gap-5 space-y-1">
+                    <input class="px-[12px] py-[8px] rounded-full col-span-1" placeholder="First Name*" type="text" name="" id="">
+                    <input class="px-[12px] py-[8px] rounded-full" placeholder="Last Name*" type="text" name="" id="">
+                    <input class="px-[12px] py-[8px] rounded-full" placeholder="Phone Number*" type="number" name="" id="">
+                    <input class="px-[18px] py-[8px] rounded-full" placeholder="Email Number*" type="email" name="" id="">
+                    <textarea class="px-[18px] py-[8px] rounded-2xl lg:col-span-2 row-span-7" placeholder="Write your message here" name="" id=""></textarea>
+
+                    <button class="px-[18px] py-[8px] bg-[#ABEF5F] rounded-full text-lg font-bold lg:col-span-2 mb-7">Send Mail
+                        <i class="fa-solid fa-arrow-right text-xl text-white -rotate-45 bg-black rounded-full h-8 w-8 p-[1px] text-center"></i>
+                    </button>
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+
+        </div>
+     </section>
+
     
 
 
